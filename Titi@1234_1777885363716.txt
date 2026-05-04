@@ -1,0 +1,5 @@
+BMI REPORT
+User: Titi@1234
+BMI: 27.40765727778715
+Category: Overweight
+Workout: Cardio + light strength

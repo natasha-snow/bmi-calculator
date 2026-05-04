@@ -6,7 +6,6 @@ public class BMISystem {
     static Scanner sc = new Scanner(System.in);
 
     // ========= USER SYSTEM =========
-
     public static boolean userExists(String username) {
         try (BufferedReader br = new BufferedReader(new FileReader("users.txt"))) {
             String line;
@@ -145,7 +144,7 @@ public class BMISystem {
     public static void viewProgress(String user) {
         try (BufferedReader br = new BufferedReader(new FileReader(user + "_progress.txt"))) {
             String line;
-            System.out.println("\n📈 Progress:");
+            System.out.println("\nProgress:");
             while ((line = br.readLine()) != null)
                 System.out.println(line);
         } catch (IOException e) {
